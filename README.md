@@ -1,6 +1,6 @@
 # Personal Developer Portfolio — Muhammad Faisal
 
-A modern, highly responsive, semantic single-page developer portfolio website designed and built to showcase full-stack web applications and applied AI/ML engineering projects. Developed as part of **Task 2** for the **Progree Remote Internship Program**.
+A modern, highly responsive, semantic single-page developer portfolio website designed and built to showcase full-stack web applications and applied AI/ML engineering projects.
 
 ---
 
