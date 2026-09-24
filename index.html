@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Muhammad Faisal - Full-Stack Developer & Applied AI/ML Engineer based in Lahore, Pakistan.">
+  <meta name="author" content="Muhammad Faisal">
+  <meta name="theme-color" content="#0b0f19">
+
+  <title>Muhammad Faisal | Full-Stack Developer & Applied AI/ML Engineer</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header / Navigation Bar -->
+  <header class="header" id="header">
+    <nav class="nav container" aria-label="Main Navigation">
+      <a href="#" class="nav-logo" aria-label="Muhammad Faisal Home">
+        MF<span class="accent-dot">.</span>
+      </a>
+
+      <div class="nav-menu" id="nav-menu">
+        <ul class="nav-list nav-links">
+          <li class="nav-item">
+            <a href="#about" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#skills" class="nav-link">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a href="#projects" class="nav-link">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a href="#experience" class="nav-link">Experience</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">Contact</a>
+          </li>
+        </ul>
+      </div>
+
+      <button class="nav-toggle mobile-toggle hamburger-btn" id="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="nav-menu">
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+      </button>
+    </nav>
+  </header>
+
+  <!-- Main Content Area -->
+  <main class="main">
+    <!-- Hero Section -->
+    <section class="hero section" id="hero">
+      <div class="hero-container container">
+        <div class="hero-content">
+          <div class="hero-badge">
+            <span class="status-pulse"></span>
+            Available for New Opportunities
+          </div>
+
+          <h1 class="hero-title">
+            Hi, I'm <span class="gradient-text">Muhammad Faisal</span>
+          </h1>
+
+          <p class="hero-subtitle">
+            Full-Stack Developer <span class="divider">|</span> Applied AI/ML Engineer
+          </p>
+
+          <p class="hero-description">
+            BS Computer Science undergraduate at UMT Lahore, dedicated to crafting resilient full-stack web applications with the MERN stack and developing high-precision AI/ML solutions driven by semantic search, recommendation engines, and dense vector retrieval.
+          </p>
+
+          <div class="hero-meta">
+            <span class="meta-item">
+              <svg class="meta-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                <circle cx="12" cy="10" r="3"></circle>
+              </svg>
+              Lahore, Pakistan
+            </span>
+            <span class="meta-item">
+              <svg class="meta-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+              </svg>
+              BS CS, UMT (2022–2026)
+            </span>
+          </div>
+
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">
+              <span>View Work</span>
+              <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+            <a href="#contact" class="btn btn-secondary">
+              <span>Contact Me</span>
+              <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+            </a>
+          </div>
+
+          <div class="hero-socials">
+            <a href="https://github.com/FaisalShahbaz383" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="GitHub Profile">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"></path>
+              </svg>
+              <span>GitHub</span>
+            </a>
+            <a href="https://linkedin.com/in/muhammad-faisal-72b13933b" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="LinkedIn Profile">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+              </svg>
+              <span>LinkedIn</span>
+            </a>
+            <a href="mailto:faisalshahbaz383@gmail.com" class="social-link" aria-label="Send Email">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+              <span>Email</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about section" id="about">
+      <div class="about-container container">
+        <div class="section-header">
+          <p class="section-tag">Background</p>
+          <h2 class="section-title">About Me</h2>
+          <div class="section-line"></div>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-card card about-narrative">
+            <h3 class="about-subtitle">Bridging Full-Stack Systems with Intelligent AI</h3>
+            <p>
+              I am a Computer Science undergraduate at the <strong>University of Management & Technology (UMT), Lahore</strong> (Class of 2022–2026), with a deep passion for building scalable, high-impact software systems. My technical focus converges on two complementary domains: modern full-stack development with the <strong>MERN stack</strong> and <strong>Applied AI/Machine Learning</strong>.
+            </p>
+            <p>
+              In full-stack engineering, I specialize in crafting clean architectures, building robust RESTful APIs, implementing granular Role-Based Access Control (RBAC), and optimizing database transactions. Simultaneously, my AI/ML work explores information retrieval, hybrid search engines (combining lexical and dense semantic embeddings), and adaptive recommendation systems with continuous feedback loops.
+            </p>
+            <p>
+              I take pride in writing clean, modular code, keeping performance at the forefront, and turning complex computational challenges into elegant, intuitive digital experiences.
+            </p>
+          </div>
+
+          <div class="about-card card about-highlights">
+            <h3 class="about-subtitle">Core Focus Areas</h3>
+            <ul class="highlights-list">
+              <li class="highlight-item">
+                <div class="highlight-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+                    <polyline points="2 17 12 22 22 17"></polyline>
+                    <polyline points="2 12 12 17 22 12"></polyline>
+                  </svg>
+                </div>
+                <div class="highlight-text">
+                  <h4>Full-Stack Architecture</h4>
+                  <p>Building secure, scalable, and responsive web platforms utilizing React, Node.js, Express, and MongoDB.</p>
+                </div>
+              </li>
+              <li class="highlight-item">
+                <div class="highlight-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <circle cx="12" cy="12" r="3"></circle>
+                    <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path>
+                  </svg>
+                </div>
+                <div class="highlight-text">
+                  <h4>Applied AI & Semantic Retrieval</h4>
+                  <p>Engineering hybrid retrieval systems with BM25, FAISS, sentence embeddings, and RL feedback loops.</p>
+                </div>
+              </li>
+              <li class="highlight-item">
+                <div class="highlight-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                    <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+                  </svg>
+                </div>
+                <div class="highlight-text">
+                  <h4>Academic Foundation (UMT)</h4>
+                  <p>Rigorous study in data structures, algorithms, databases, and machine learning theory at UMT Lahore.</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills section" id="skills">
+      <div class="skills-container container">
+        <div class="section-header">
+          <p class="section-tag">Expertise</p>
+          <h2 class="section-title">Technical Skills</h2>
+          <div class="section-line"></div>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Full-Stack Category -->
+          <article class="skill-category-card card">
+            <div class="category-header">
+              <div class="category-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                  <line x1="8" y1="21" x2="16" y2="21"></line>
+                  <line x1="12" y1="17" x2="12" y2="21"></line>
+                </svg>
+              </div>
+              <div class="category-info">
+                <h3 class="category-title">Full-Stack Development</h3>
+                <p class="category-desc">Modern web apps, server architecture, and database design</p>
+              </div>
+            </div>
+            <div class="badges-grid">
+              <span class="skill-badge">React.js</span>
+              <span class="skill-badge">Node.js</span>
+              <span class="skill-badge">Express.js</span>
+              <span class="skill-badge">MongoDB</span>
+              <span class="skill-badge">REST APIs</span>
+              <span class="skill-badge">JWT</span>
+              <span class="skill-badge">RBAC</span>
+            </div>
+          </article>
+
+          <!-- AI/ML Category -->
+          <article class="skill-category-card card">
+            <div class="category-header">
+              <div class="category-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M12 2a4 4 0 0 0-4 4c0 1.25.58 2.37 1.48 3.1A6 6 0 0 0 5 15v1a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-1a6 6 0 0 0-4.48-5.9A4 4 0 0 0 16 6a4 4 0 0 0-4-4z"></path>
+                  <line x1="9" y1="18" x2="9" y2="22"></line>
+                  <line x1="15" y1="18" x2="15" y2="22"></line>
+                </svg>
+              </div>
+              <div class="category-info">
+                <h3 class="category-title">Applied AI & Machine Learning</h3>
+                <p class="category-desc">Vector retrieval, ranking models, and NLP pipelines</p>
+              </div>
+            </div>
+            <div class="badges-grid">
+              <span class="skill-badge">Python</span>
+              <span class="skill-badge">NLP</span>
+              <span class="skill-badge">Recommendation Systems</span>
+              <span class="skill-badge">Semantic Search</span>
+              <span class="skill-badge">FAISS</span>
+              <span class="skill-badge">BM25</span>
+              <span class="skill-badge">scikit-learn</span>
+              <span class="skill-badge">sentence-transformers</span>
+            </div>
+          </article>
+
+          <!-- Tools Category -->
+          <article class="skill-category-card card">
+            <div class="category-header">
+              <div class="category-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path>
+                </svg>
+              </div>
+              <div class="category-info">
+                <h3 class="category-title">Tools & Environment</h3>
+                <p class="category-desc">Version control, API testing, and computational environments</p>
+              </div>
+            </div>
+            <div class="badges-grid">
+              <span class="skill-badge">Git</span>
+              <span class="skill-badge">GitHub</span>
+              <span class="skill-badge">Postman</span>
+              <span class="skill-badge">Google Colab</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects section" id="projects">
+      <div class="projects-container container">
+        <div class="section-header">
+          <p class="section-tag">Portfolio</p>
+          <h2 class="section-title">Featured Projects</h2>
+          <div class="section-line"></div>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1: CRM System -->
+          <article class="project-card card">
+            <div class="project-card-inner">
+              <div class="project-type-header">
+                <span class="project-label">Full-Stack Application</span>
+                <div class="project-links">
+                  <a href="https://github.com/FaisalShahbaz383" target="_blank" rel="noopener noreferrer" class="icon-link" aria-label="View CRM GitHub Repository">
+                    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"></path>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+
+              <h3 class="project-title">Customer Relationship Management (CRM) System</h3>
+
+              <p class="project-description">
+                A robust, production-oriented CRM platform architected with the MERN stack. Designed to streamline client communications, manage organizational pipelines, and handle extensive customer datasets. Incorporates granular Role-Based Access Control (RBAC), secure JSON Web Token (JWT) authentication, and high-efficiency server-side pagination with indexing for optimal performance under heavy query loads.
+              </p>
+
+              <div class="project-tags">
+                <span class="tag">MERN Stack</span>
+                <span class="tag">React.js</span>
+                <span class="tag">Node.js</span>
+                <span class="tag">Express.js</span>
+                <span class="tag">MongoDB</span>
+                <span class="tag">JWT</span>
+                <span class="tag">RBAC</span>
+                <span class="tag">Server-side pagination</span>
+              </div>
+
+              <div class="project-footer">
+                <a href="https://github.com/FaisalShahbaz383" target="_blank" rel="noopener noreferrer" class="project-action-btn">
+                  <span>View Repository</span>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2: AI Recommendation System -->
+          <article class="project-card card">
+            <div class="project-card-inner">
+              <div class="project-type-header">
+                <span class="project-label">Applied AI / Recommendation Engine</span>
+                <div class="project-links">
+                  <a href="https://github.com/FaisalShahbaz383" target="_blank" rel="noopener noreferrer" class="icon-link" aria-label="View AI Recommendation GitHub Repository">
+                    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"></path>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+
+              <h3 class="project-title">AI-Based Intelligent Service Recommendation System</h3>
+
+              <p class="project-description">
+                A high-precision, hybrid recommendation and discovery engine engineered in Python. Combines sparse lexical keyword retrieval (BM25) with dense semantic vector indexing (FAISS) powered by sentence-transformers to capture deep contextual nuance. Features an adaptive Reinforcement Learning (RL) feedback loop that dynamically calibrates service ranking in real time based on user interactions.
+              </p>
+
+              <div class="project-tags">
+                <span class="tag">Python</span>
+                <span class="tag">Hybrid Retrieval</span>
+                <span class="tag">BM25 + FAISS</span>
+                <span class="tag">RL feedback loop</span>
+                <span class="tag">sentence-transformers</span>
+                <span class="tag">scikit-learn</span>
+                <span class="tag">Semantic Search</span>
+              </div>
+
+              <div class="project-footer">
+                <a href="https://github.com/FaisalShahbaz383" target="_blank" rel="noopener noreferrer" class="project-action-btn">
+                  <span>View Repository</span>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience & Education Section -->
+    <section class="experience section" id="experience">
+      <div class="experience-container container">
+        <div class="section-header">
+          <p class="section-tag">Milestones</p>
+          <h2 class="section-title">Experience & Education</h2>
+          <div class="section-line"></div>
+        </div>
+
+        <div class="timeline-grid">
+          <!-- Experience Card -->
+          <article class="timeline-card card">
+            <div class="timeline-header">
+              <div class="timeline-icon experience-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                  <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+                </svg>
+              </div>
+              <div class="timeline-meta">
+                <span class="timeline-badge">Work Experience</span>
+                <h3 class="timeline-role">Data Verification Associate</h3>
+                <p class="timeline-org">Professional Role</p>
+              </div>
+            </div>
+
+            <p class="timeline-description">
+              Responsible for meticulous data verification, auditing, and structural validation across large-scale datasets. Focused on maintaining uncompromising data integrity, identifying anomalies, improving validation pipelines, and adhering to strict quality benchmarks for operational efficiency.
+            </p>
+
+            <ul class="timeline-points">
+              <li>Conducted systematic auditing and data verification across high-volume dataset pipelines.</li>
+              <li>Identified data anomalies and inconsistency patterns, streamlining reporting accuracy.</li>
+              <li>Collaborated with teams to implement standardized quality assurance protocols.</li>
+            </ul>
+          </article>
+
+          <!-- Education Card -->
+          <article class="timeline-card card">
+            <div class="timeline-header">
+              <div class="timeline-icon education-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                  <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+                </svg>
+              </div>
+              <div class="timeline-meta">
+                <span class="timeline-badge">Degree Program</span>
+                <h3 class="timeline-role">BS Computer Science</h3>
+                <p class="timeline-org">University of Management & Technology (UMT), Lahore</p>
+                <span class="timeline-duration">2022 – 2026</span>
+              </div>
+            </div>
+
+            <p class="timeline-description">
+              Pursuing a comprehensive Bachelor of Science degree in Computer Science at UMT Lahore. Building deep theoretical foundations and practical expertise in software engineering paradigms, full-stack web technologies, machine learning, and advanced algorithms.
+            </p>
+
+            <ul class="timeline-points">
+              <li>Core curriculum: Data Structures & Algorithms, Database Management Systems, OOP, Web Engineering.</li>
+              <li>Specialized focus: Applied Artificial Intelligence, Natural Language Processing, and Machine Learning Systems.</li>
+              <li>Actively applying academic concepts to real-world software architecture and research-grade recommendation systems.</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact section" id="contact">
+      <div class="contact-container container">
+        <div class="section-header">
+          <p class="section-tag">Let's Connect</p>
+          <h2 class="section-title">Get In Touch</h2>
+          <div class="section-line"></div>
+        </div>
+
+        <div class="contact-wrapper">
+          <div class="contact-info-card contact-card card">
+            <h3 class="contact-heading">Ready to collaborate or have a question?</h3>
+            <p class="contact-subtext">
+              Whether you're looking for a passionate Full-Stack Developer for your next project, an Applied AI/ML Engineer to build intelligent retrieval systems, or just want to chat about technology — my inbox is always open!
+            </p>
+
+            <div class="contact-methods">
+              <a href="mailto:faisalshahbaz383@gmail.com" class="contact-method-item">
+                <div class="method-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                    <polyline points="22,6 12,13 2,6"></polyline>
+                  </svg>
+                </div>
+                <div class="method-content">
+                  <span class="method-label">Email Directly</span>
+                  <span class="method-value">faisalshahbaz383@gmail.com</span>
+                </div>
+              </a>
+
+              <a href="https://linkedin.com/in/muhammad-faisal-72b13933b" target="_blank" rel="noopener noreferrer" class="contact-method-item">
+                <div class="method-icon">
+                  <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                    <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                  </svg>
+                </div>
+                <div class="method-content">
+                  <span class="method-label">LinkedIn Profile</span>
+                  <span class="method-value">linkedin.com/in/muhammad-faisal-72b13933b</span>
+                </div>
+              </a>
+
+              <a href="https://github.com/FaisalShahbaz383" target="_blank" rel="noopener noreferrer" class="contact-method-item">
+                <div class="method-icon">
+                  <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"></path>
+                  </svg>
+                </div>
+                <div class="method-content">
+                  <span class="method-label">GitHub Repository</span>
+                  <span class="method-value">github.com/FaisalShahbaz383</span>
+                </div>
+              </a>
+
+              <div class="contact-method-item non-link">
+                <div class="method-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                    <circle cx="12" cy="10" r="3"></circle>
+                  </svg>
+                </div>
+                <div class="method-content">
+                  <span class="method-label">Location</span>
+                  <span class="method-value">Lahore, Pakistan</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="contact-cta">
+              <a href="mailto:faisalshahbaz383@gmail.com" class="btn btn-primary btn-large">
+                <span>Say Hello via Email</span>
+                <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <line x1="22" y1="2" x2="11" y2="13"></line>
+                  <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-container container">
+      <div class="footer-brand">
+        <a href="#" class="footer-logo">MF<span class="accent-dot">.</span></a>
+        <p class="footer-tagline">
+          Muhammad Faisal — Full-Stack Developer & Applied AI/ML Engineer.
+        </p>
+      </div>
+
+      <nav class="footer-nav" aria-label="Footer Navigation">
+        <a href="#about" class="footer-link">About</a>
+        <a href="#skills" class="footer-link">Skills</a>
+        <a href="#projects" class="footer-link">Projects</a>
+        <a href="#experience" class="footer-link">Experience</a>
+        <a href="#contact" class="footer-link">Contact</a>
+      </nav>
+
+      <div class="footer-socials">
+        <a href="https://github.com/FaisalShahbaz383" target="_blank" rel="noopener noreferrer" class="footer-social-icon" aria-label="GitHub">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"></path>
+          </svg>
+        </a>
+        <a href="https://linkedin.com/in/muhammad-faisal-72b13933b" target="_blank" rel="noopener noreferrer" class="footer-social-icon" aria-label="LinkedIn">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+          </svg>
+        </a>
+        <a href="mailto:faisalshahbaz383@gmail.com" class="footer-social-icon" aria-label="Email">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+            <polyline points="22,6 12,13 2,6"></polyline>
+          </svg>
+        </a>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="copyright">
+          &copy; <span id="current-year">2026</span> Muhammad Faisal. All rights reserved. Built with semantic HTML5, modern CSS, and vanilla JS.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Main JavaScript File -->
+  <script src="script.js"></script>
+</body>
+</html>
