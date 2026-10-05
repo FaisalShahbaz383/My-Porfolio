@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Portfolio of Muhammad Faisal - Full-Stack Developer & Applied AI/ML Engineer based in Lahore, Pakistan.">
   <meta name="author" content="Muhammad Faisal">
-  <meta name="theme-color" content="#0b0f19">
+  <meta name="theme-color" content="#0a0d14">
 
   <title>Muhammad Faisal | Full-Stack Developer & Applied AI/ML Engineer</title>
 
@@ -57,8 +57,14 @@
   <main class="main">
     <!-- Hero Section -->
     <section class="hero section" id="hero">
+      <!-- Background Ambient Glow & Subtle Grid Pattern -->
+      <div class="hero-bg-grid" aria-hidden="true"></div>
+      <div class="hero-glow-particle particle-1" aria-hidden="true"></div>
+      <div class="hero-glow-particle particle-2" aria-hidden="true"></div>
+      <div class="hero-glow-particle particle-3" aria-hidden="true"></div>
+
       <div class="hero-container container">
-        <div class="hero-content">
+        <div class="hero-content reveal-on-scroll reveal-fade-up">
           <div class="hero-badge">
             <span class="status-pulse"></span>
             Available for New Opportunities
@@ -94,14 +100,14 @@
           </div>
 
           <div class="hero-actions">
-            <a href="#projects" class="btn btn-primary">
+            <a href="#projects" class="btn btn-primary hero-btn">
               <span>View Work</span>
               <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
                 <line x1="5" y1="12" x2="19" y2="12"></line>
                 <polyline points="12 5 19 12 12 19"></polyline>
               </svg>
             </a>
-            <a href="#contact" class="btn btn-secondary">
+            <a href="#contact" class="btn btn-secondary hero-btn">
               <span>Contact Me</span>
               <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
                 <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
@@ -132,20 +138,97 @@
             </a>
           </div>
         </div>
+
+        <!-- Right-hand 3D-Style Tech Orb & Floating Code Graphic -->
+        <div class="hero-visual reveal-on-scroll reveal-scale">
+          <div class="hero-orb-wrapper">
+            <!-- 3D Luminous Tech Orb Elements -->
+            <div class="tech-orb-glow"></div>
+            <div class="tech-orb-ring ring-1"></div>
+            <div class="tech-orb-ring ring-2"></div>
+            <div class="tech-orb-core"></div>
+
+            <!-- Floating Code Graphic Card -->
+            <div class="hero-code-card">
+              <div class="code-card-header">
+                <div class="code-card-dots">
+                  <span class="dot dot-red"></span>
+                  <span class="dot dot-yellow"></span>
+                  <span class="dot dot-green"></span>
+                </div>
+                <div class="code-card-title">faisal.engineer.ts</div>
+                <div class="code-card-badge">ACTIVE</div>
+              </div>
+              <div class="code-card-body">
+                <pre><code><span class="code-keyword">const</span> <span class="code-variable">engineer</span> = {
+  <span class="code-prop">name</span>: <span class="code-string">"Muhammad Faisal"</span>,
+  <span class="code-prop">degree</span>: <span class="code-string">"BS CS @ UMT Lahore"</span>,
+  <span class="code-prop">stack</span>: [<span class="code-string">"React"</span>, <span class="code-string">"Node"</span>, <span class="code-string">"MongoDB"</span>],
+  <span class="code-prop">ai_focus</span>: [<span class="code-string">"BM25 + FAISS"</span>, <span class="code-string">"RL"</span>],
+  <span class="code-prop">status</span>: <span class="code-string">"Available for Impact"</span>
+};</code></pre>
+              </div>
+            </div>
+
+            <!-- Floating Glassmorphism Badges -->
+            <div class="hero-float-badge badge-top-right">
+              <div class="badge-icon icon-mern">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+                  <polyline points="2 17 12 22 22 17"></polyline>
+                  <polyline points="2 12 12 17 22 12"></polyline>
+                </svg>
+              </div>
+              <div class="badge-text">
+                <span class="badge-title">Full-Stack MERN</span>
+                <span class="badge-sub">Production Ready</span>
+              </div>
+            </div>
+
+            <div class="hero-float-badge badge-bottom-left">
+              <div class="badge-icon icon-ai">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M12 2a4 4 0 0 0-4 4c0 1.25.58 2.37 1.48 3.1A6 6 0 0 0 5 15v1a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-1a6 6 0 0 0-4.48-5.9A4 4 0 0 0 16 6a4 4 0 0 0-4-4z"></path>
+                  <line x1="9" y1="18" x2="9" y2="22"></line>
+                  <line x1="15" y1="18" x2="15" y2="22"></line>
+                </svg>
+              </div>
+              <div class="badge-text">
+                <span class="badge-title">AI/ML Recommendation</span>
+                <span class="badge-sub">Dense + Sparse Indexing</span>
+              </div>
+            </div>
+
+            <div class="hero-float-badge badge-mid-right">
+              <div class="badge-icon icon-api">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect>
+                  <rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect>
+                  <line x1="6" y1="6" x2="6.01" y2="6"></line>
+                  <line x1="6" y1="18" x2="6.01" y2="18"></line>
+                </svg>
+              </div>
+              <div class="badge-text">
+                <span class="badge-title">REST APIs</span>
+                <span class="badge-sub">Secure & Scalable</span>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 
     <!-- About Section -->
     <section class="about section" id="about">
       <div class="about-container container">
-        <div class="section-header">
+        <div class="section-header reveal-on-scroll reveal-fade-up">
           <p class="section-tag">Background</p>
           <h2 class="section-title">About Me</h2>
           <div class="section-line"></div>
         </div>
 
         <div class="about-grid">
-          <div class="about-card card about-narrative">
+          <div class="about-card card about-narrative reveal-on-scroll reveal-fade-up">
             <h3 class="about-subtitle">Bridging Full-Stack Systems with Intelligent AI</h3>
             <p>
               I am a Computer Science undergraduate at the <strong>University of Management & Technology (UMT), Lahore</strong> (Class of 2022–2026), with a deep passion for building scalable, high-impact software systems. My technical focus converges on two complementary domains: modern full-stack development with the <strong>MERN stack</strong> and <strong>Applied AI/Machine Learning</strong>.
@@ -158,10 +241,10 @@
             </p>
           </div>
 
-          <div class="about-card card about-highlights">
+          <div class="about-card card about-highlights reveal-on-scroll reveal-fade-up">
             <h3 class="about-subtitle">Core Focus Areas</h3>
             <ul class="highlights-list">
-              <li class="highlight-item">
+              <li class="highlight-item focus-card">
                 <div class="highlight-icon">
                   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
                     <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
@@ -174,7 +257,7 @@
                   <p>Building secure, scalable, and responsive web platforms utilizing React, Node.js, Express, and MongoDB.</p>
                 </div>
               </li>
-              <li class="highlight-item">
+              <li class="highlight-item focus-card">
                 <div class="highlight-icon">
                   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
                     <circle cx="12" cy="12" r="3"></circle>
@@ -186,7 +269,7 @@
                   <p>Engineering hybrid retrieval systems with BM25, FAISS, sentence embeddings, and RL feedback loops.</p>
                 </div>
               </li>
-              <li class="highlight-item">
+              <li class="highlight-item focus-card">
                 <div class="highlight-icon">
                   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
                     <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
@@ -207,7 +290,7 @@
     <!-- Skills Section -->
     <section class="skills section" id="skills">
       <div class="skills-container container">
-        <div class="section-header">
+        <div class="section-header reveal-on-scroll reveal-fade-up">
           <p class="section-tag">Expertise</p>
           <h2 class="section-title">Technical Skills</h2>
           <div class="section-line"></div>
@@ -215,7 +298,7 @@
 
         <div class="skills-grid">
           <!-- Full-Stack Category -->
-          <article class="skill-category-card card">
+          <article class="skill-category-card card reveal-on-scroll reveal-fade-up">
             <div class="category-header">
               <div class="category-icon">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
@@ -230,18 +313,18 @@
               </div>
             </div>
             <div class="badges-grid">
-              <span class="skill-badge">React.js</span>
-              <span class="skill-badge">Node.js</span>
-              <span class="skill-badge">Express.js</span>
-              <span class="skill-badge">MongoDB</span>
-              <span class="skill-badge">REST APIs</span>
-              <span class="skill-badge">JWT</span>
-              <span class="skill-badge">RBAC</span>
+              <span class="skill-badge"><span class="badge-dot"></span>React.js</span>
+              <span class="skill-badge"><span class="badge-dot"></span>Node.js</span>
+              <span class="skill-badge"><span class="badge-dot"></span>Express.js</span>
+              <span class="skill-badge"><span class="badge-dot"></span>MongoDB</span>
+              <span class="skill-badge"><span class="badge-dot"></span>REST APIs</span>
+              <span class="skill-badge"><span class="badge-dot"></span>JWT</span>
+              <span class="skill-badge"><span class="badge-dot"></span>RBAC</span>
             </div>
           </article>
 
           <!-- AI/ML Category -->
-          <article class="skill-category-card card">
+          <article class="skill-category-card card reveal-on-scroll reveal-fade-up">
             <div class="category-header">
               <div class="category-icon">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
@@ -256,19 +339,19 @@
               </div>
             </div>
             <div class="badges-grid">
-              <span class="skill-badge">Python</span>
-              <span class="skill-badge">NLP</span>
-              <span class="skill-badge">Recommendation Systems</span>
-              <span class="skill-badge">Semantic Search</span>
-              <span class="skill-badge">FAISS</span>
-              <span class="skill-badge">BM25</span>
-              <span class="skill-badge">scikit-learn</span>
-              <span class="skill-badge">sentence-transformers</span>
+              <span class="skill-badge"><span class="badge-dot"></span>Python</span>
+              <span class="skill-badge"><span class="badge-dot"></span>NLP</span>
+              <span class="skill-badge"><span class="badge-dot"></span>Recommendation Systems</span>
+              <span class="skill-badge"><span class="badge-dot"></span>Semantic Search</span>
+              <span class="skill-badge"><span class="badge-dot"></span>FAISS</span>
+              <span class="skill-badge"><span class="badge-dot"></span>BM25</span>
+              <span class="skill-badge"><span class="badge-dot"></span>scikit-learn</span>
+              <span class="skill-badge"><span class="badge-dot"></span>sentence-transformers</span>
             </div>
           </article>
 
           <!-- Tools Category -->
-          <article class="skill-category-card card">
+          <article class="skill-category-card card reveal-on-scroll reveal-fade-up">
             <div class="category-header">
               <div class="category-icon">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
@@ -281,10 +364,10 @@
               </div>
             </div>
             <div class="badges-grid">
-              <span class="skill-badge">Git</span>
-              <span class="skill-badge">GitHub</span>
-              <span class="skill-badge">Postman</span>
-              <span class="skill-badge">Google Colab</span>
+              <span class="skill-badge"><span class="badge-dot"></span>Git</span>
+              <span class="skill-badge"><span class="badge-dot"></span>GitHub</span>
+              <span class="skill-badge"><span class="badge-dot"></span>Postman</span>
+              <span class="skill-badge"><span class="badge-dot"></span>Google Colab</span>
             </div>
           </article>
         </div>
@@ -294,22 +377,191 @@
     <!-- Projects Section -->
     <section class="projects section" id="projects">
       <div class="projects-container container">
-        <div class="section-header">
+        <div class="section-header reveal-on-scroll reveal-fade-up">
           <p class="section-tag">Portfolio</p>
           <h2 class="section-title">Featured Projects</h2>
           <div class="section-line"></div>
         </div>
 
         <div class="projects-grid">
-          <!-- Project 1: CRM System -->
-          <article class="project-card card">
+          <!-- Project 1: NexusGear -->
+          <article class="project-card card reveal-on-scroll reveal-fade-up">
             <div class="project-card-inner">
               <div class="project-type-header">
-                <span class="project-label">Full-Stack Application</span>
+                <span class="project-label">FULL-STACK APPLICATION / E-COMMERCE</span>
                 <div class="project-links">
-                  <a href="https://github.com/FaisalShahbaz383" target="_blank" rel="noopener noreferrer" class="icon-link" aria-label="View CRM GitHub Repository">
+                  <a href="https://github.com/FaisalShahbaz383/NexusGear-Ecommerce-Store.git" target="_blank" rel="noopener noreferrer" class="icon-link" aria-label="View NexusGear GitHub Repository">
                     <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
                       <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"></path>
+                    </svg>
+                  </a>
+                  <a href="https://nexus-gear-ecommerce-store.vercel.app" target="_blank" rel="noopener noreferrer" class="icon-link" aria-label="View NexusGear Live Demo">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                      <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                      <polyline points="15 3 21 3 21 9"></polyline>
+                      <line x1="10" y1="14" x2="21" y2="3"></line>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+
+              <h3 class="project-title">NexusGear — Secure Full-Stack E-Commerce Engine</h3>
+
+              <p class="project-description">
+                Production-grade MERN e-commerce engine featuring user session persistence, JWT authentication, dynamic client-server shopping cart engine, Stripe sandbox payment checkout integration, and automated inventory deduction logic. Deployed on Render and Vercel.
+              </p>
+
+              <div class="project-tags">
+                <span class="tag">MERN Stack</span>
+                <span class="tag">React.js</span>
+                <span class="tag">Node.js</span>
+                <span class="tag">Express.js</span>
+                <span class="tag">MongoDB Atlas</span>
+                <span class="tag">Stripe API</span>
+                <span class="tag">JWT</span>
+                <span class="tag">Render</span>
+                <span class="tag">Vercel</span>
+              </div>
+
+              <div class="project-footer">
+                <div class="project-cta-group">
+                  <a href="https://github.com/FaisalShahbaz383/NexusGear-Ecommerce-Store.git" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+                    <svg viewBox="0 0 24 24" fill="currentColor" class="btn-icon-sm" aria-hidden="true">
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"></path>
+                    </svg>
+                    <span>View Repository</span>
+                  </a>
+                  <a href="https://nexus-gear-ecommerce-store.vercel.app" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="btn-icon-sm" aria-hidden="true">
+                      <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                      <polyline points="15 3 21 3 21 9"></polyline>
+                      <line x1="10" y1="14" x2="21" y2="3"></line>
+                    </svg>
+                    <span>Live Demo</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2: SahulatHub-AI -->
+          <article class="project-card card reveal-on-scroll reveal-fade-up">
+            <div class="project-card-inner">
+              <div class="project-type-header">
+                <span class="project-label">APPLIED AI / RECOMMENDATION ENGINE</span>
+                <div class="project-links">
+                  <a href="https://github.com/FaisalShahbaz383/Sahulathub-AI.git" target="_blank" rel="noopener noreferrer" class="icon-link" aria-label="View SahulatHub AI GitHub Repository">
+                    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"></path>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+
+              <h3 class="project-title">SahulatHub AI — Intelligent Service Recommendation Engine</h3>
+
+              <p class="project-description">
+                Research-grade hybrid recommendation and discovery engine engineered in Python. Combines sparse lexical keyword retrieval (BM25) with dense semantic vector indexing (FAISS) powered by sentence-transformers, paired with an adaptive Reinforcement Learning (RL) feedback loop.
+              </p>
+
+              <div class="project-tags">
+                <span class="tag">Python</span>
+                <span class="tag">Hybrid Retrieval</span>
+                <span class="tag">BM25 + FAISS</span>
+                <span class="tag">RL Feedback Loop</span>
+                <span class="tag">sentence-transformers</span>
+                <span class="tag">scikit-learn</span>
+                <span class="tag">Semantic Search</span>
+              </div>
+
+              <div class="project-footer">
+                <div class="project-cta-group">
+                  <a href="https://github.com/FaisalShahbaz383/Sahulathub-AI.git" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+                    <svg viewBox="0 0 24 24" fill="currentColor" class="btn-icon-sm" aria-hidden="true">
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"></path>
+                    </svg>
+                    <span>View Repository</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3: TaskFlow -->
+          <article class="project-card card reveal-on-scroll reveal-fade-up">
+            <div class="project-card-inner">
+              <div class="project-type-header">
+                <span class="project-label">FULL-STACK MERN / DASHBOARD</span>
+                <div class="project-links">
+                  <a href="https://github.com/FaisalShahbaz383/TaskFlow.git" target="_blank" rel="noopener noreferrer" class="icon-link" aria-label="View TaskFlow GitHub Repository">
+                    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"></path>
+                    </svg>
+                  </a>
+                  <a href="https://task-flow-ten-snowy.vercel.app" target="_blank" rel="noopener noreferrer" class="icon-link" aria-label="View TaskFlow Live Demo">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                      <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                      <polyline points="15 3 21 3 21 9"></polyline>
+                      <line x1="10" y1="14" x2="21" y2="3"></line>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+
+              <h3 class="project-title">TaskFlow — Dynamic Task Management Dashboard</h3>
+
+              <p class="project-description">
+                Real-time asynchronous task management platform built with MERN stack. Features live calculating analytics widgets (completion percentage, pending, completed counters), Kanban Board vs Tabular view toggles, client-side search filtering, and cloud database state sync.
+              </p>
+
+              <div class="project-tags">
+                <span class="tag">React.js</span>
+                <span class="tag">Node.js</span>
+                <span class="tag">Express.js</span>
+                <span class="tag">MongoDB Atlas</span>
+                <span class="tag">Kanban Board</span>
+                <span class="tag">REST API</span>
+                <span class="tag">Render</span>
+                <span class="tag">Vercel</span>
+              </div>
+
+              <div class="project-footer">
+                <div class="project-cta-group">
+                  <a href="https://github.com/FaisalShahbaz383/TaskFlow.git" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+                    <svg viewBox="0 0 24 24" fill="currentColor" class="btn-icon-sm" aria-hidden="true">
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"></path>
+                    </svg>
+                    <span>View Repository</span>
+                  </a>
+                  <a href="https://task-flow-ten-snowy.vercel.app" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="btn-icon-sm" aria-hidden="true">
+                      <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                      <polyline points="15 3 21 3 21 9"></polyline>
+                      <line x1="10" y1="14" x2="21" y2="3"></line>
+                    </svg>
+                    <span>Live Demo</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 4: CRM -->
+          <article class="project-card card reveal-on-scroll reveal-fade-up">
+            <div class="project-card-inner">
+              <div class="project-type-header">
+                <span class="project-label">FULL-STACK APPLICATION / RBAC</span>
+                <div class="project-links">
+                  <a href="https://github.com/FaisalShahbaz383/CRM-Project.git" target="_blank" rel="noopener noreferrer" class="icon-link" aria-label="View CRM GitHub Repository">
+                    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"></path>
+                    </svg>
+                  </a>
+                  <a href="https://crm-project-nine-iota.vercel.app" target="_blank" rel="noopener noreferrer" class="icon-link" aria-label="View CRM Live Demo">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                      <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                      <polyline points="15 3 21 3 21 9"></polyline>
+                      <line x1="10" y1="14" x2="21" y2="3"></line>
                     </svg>
                   </a>
                 </div>
@@ -318,7 +570,7 @@
               <h3 class="project-title">Customer Relationship Management (CRM) System</h3>
 
               <p class="project-description">
-                A robust, production-oriented CRM platform architected with the MERN stack. Designed to streamline client communications, manage organizational pipelines, and handle extensive customer datasets. Incorporates granular Role-Based Access Control (RBAC), secure JSON Web Token (JWT) authentication, and high-efficiency server-side pagination with indexing for optimal performance under heavy query loads.
+                Enterprise MERN CRM platform designed for customer lifecycle management (<code>New</code>, <code>Contacted</code>, <code>In Progress</code>, <code>Closed</code>). Features Role-Based Access Control (RBAC) separating Admin and Employee permissions, JWT authentication, and pagination.
               </p>
 
               <div class="project-tags">
@@ -329,59 +581,26 @@
                 <span class="tag">MongoDB</span>
                 <span class="tag">JWT</span>
                 <span class="tag">RBAC</span>
-                <span class="tag">Server-side pagination</span>
+                <span class="tag">Pagination</span>
               </div>
 
               <div class="project-footer">
-                <a href="https://github.com/FaisalShahbaz383" target="_blank" rel="noopener noreferrer" class="project-action-btn">
-                  <span>View Repository</span>
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                    <line x1="5" y1="12" x2="19" y2="12"></line>
-                    <polyline points="12 5 19 12 12 19"></polyline>
-                  </svg>
-                </a>
-              </div>
-            </div>
-          </article>
-
-          <!-- Project 2: AI Recommendation System -->
-          <article class="project-card card">
-            <div class="project-card-inner">
-              <div class="project-type-header">
-                <span class="project-label">Applied AI / Recommendation Engine</span>
-                <div class="project-links">
-                  <a href="https://github.com/FaisalShahbaz383" target="_blank" rel="noopener noreferrer" class="icon-link" aria-label="View AI Recommendation GitHub Repository">
-                    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <div class="project-cta-group">
+                  <a href="https://github.com/FaisalShahbaz383/CRM-Project.git" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+                    <svg viewBox="0 0 24 24" fill="currentColor" class="btn-icon-sm" aria-hidden="true">
                       <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"></path>
                     </svg>
+                    <span>View Repository</span>
+                  </a>
+                  <a href="https://crm-project-nine-iota.vercel.app" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="btn-icon-sm" aria-hidden="true">
+                      <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                      <polyline points="15 3 21 3 21 9"></polyline>
+                      <line x1="10" y1="14" x2="21" y2="3"></line>
+                    </svg>
+                    <span>Live Demo</span>
                   </a>
                 </div>
-              </div>
-
-              <h3 class="project-title">AI-Based Intelligent Service Recommendation System</h3>
-
-              <p class="project-description">
-                A high-precision, hybrid recommendation and discovery engine engineered in Python. Combines sparse lexical keyword retrieval (BM25) with dense semantic vector indexing (FAISS) powered by sentence-transformers to capture deep contextual nuance. Features an adaptive Reinforcement Learning (RL) feedback loop that dynamically calibrates service ranking in real time based on user interactions.
-              </p>
-
-              <div class="project-tags">
-                <span class="tag">Python</span>
-                <span class="tag">Hybrid Retrieval</span>
-                <span class="tag">BM25 + FAISS</span>
-                <span class="tag">RL feedback loop</span>
-                <span class="tag">sentence-transformers</span>
-                <span class="tag">scikit-learn</span>
-                <span class="tag">Semantic Search</span>
-              </div>
-
-              <div class="project-footer">
-                <a href="https://github.com/FaisalShahbaz383" target="_blank" rel="noopener noreferrer" class="project-action-btn">
-                  <span>View Repository</span>
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                    <line x1="5" y1="12" x2="19" y2="12"></line>
-                    <polyline points="12 5 19 12 12 19"></polyline>
-                  </svg>
-                </a>
               </div>
             </div>
           </article>
@@ -392,7 +611,7 @@
     <!-- Experience & Education Section -->
     <section class="experience section" id="experience">
       <div class="experience-container container">
-        <div class="section-header">
+        <div class="section-header reveal-on-scroll reveal-fade-up">
           <p class="section-tag">Milestones</p>
           <h2 class="section-title">Experience & Education</h2>
           <div class="section-line"></div>
@@ -400,7 +619,7 @@
 
         <div class="timeline-grid">
           <!-- Experience Card -->
-          <article class="timeline-card card">
+          <article class="timeline-card card reveal-on-scroll reveal-fade-up">
             <div class="timeline-header">
               <div class="timeline-icon experience-icon">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
@@ -427,7 +646,7 @@
           </article>
 
           <!-- Education Card -->
-          <article class="timeline-card card">
+          <article class="timeline-card card reveal-on-scroll reveal-fade-up">
             <div class="timeline-header">
               <div class="timeline-icon education-icon">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
@@ -460,21 +679,21 @@
     <!-- Contact Section -->
     <section class="contact section" id="contact">
       <div class="contact-container container">
-        <div class="section-header">
+        <div class="section-header reveal-on-scroll reveal-fade-up">
           <p class="section-tag">Let's Connect</p>
           <h2 class="section-title">Get In Touch</h2>
           <div class="section-line"></div>
         </div>
 
         <div class="contact-wrapper">
-          <div class="contact-info-card contact-card card">
+          <div class="contact-info-card contact-card card reveal-on-scroll reveal-scale">
             <h3 class="contact-heading">Ready to collaborate or have a question?</h3>
             <p class="contact-subtext">
               Whether you're looking for a passionate Full-Stack Developer for your next project, an Applied AI/ML Engineer to build intelligent retrieval systems, or just want to chat about technology — my inbox is always open!
             </p>
 
             <div class="contact-methods">
-              <a href="mailto:faisalshahbaz383@gmail.com" class="contact-method-item">
+              <a href="mailto:faisalshahbaz383@gmail.com" class="contact-method-item glass-card">
                 <div class="method-icon">
                   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
                     <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
@@ -487,7 +706,7 @@
                 </div>
               </a>
 
-              <a href="https://linkedin.com/in/muhammad-faisal-72b13933b" target="_blank" rel="noopener noreferrer" class="contact-method-item">
+              <a href="https://linkedin.com/in/muhammad-faisal-72b13933b" target="_blank" rel="noopener noreferrer" class="contact-method-item glass-card">
                 <div class="method-icon">
                   <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
                     <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
@@ -499,7 +718,7 @@
                 </div>
               </a>
 
-              <a href="https://github.com/FaisalShahbaz383" target="_blank" rel="noopener noreferrer" class="contact-method-item">
+              <a href="https://github.com/FaisalShahbaz383" target="_blank" rel="noopener noreferrer" class="contact-method-item glass-card">
                 <div class="method-icon">
                   <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
                     <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"></path>
@@ -511,7 +730,7 @@
                 </div>
               </a>
 
-              <div class="contact-method-item non-link">
+              <div class="contact-method-item glass-card non-link">
                 <div class="method-icon">
                   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
                     <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
@@ -579,7 +798,7 @@
 
       <div class="footer-bottom">
         <p class="copyright">
-          &copy; <span id="current-year">2026</span> Muhammad Faisal. All rights reserved. Built with semantic HTML5, modern CSS, and vanilla JS.
+          &copy; <span id="current-year">2026</span> Muhammad Faisal. All rights reserved.
         </p>
       </div>
     </div>

@@ -8,6 +8,7 @@
  * - Close mobile menu when clicking outside or pressing Escape
  * - Header styling and subtle elevation on scroll
  * - Active navigation link state synchronization via IntersectionObserver
+ * - Global scroll & entrance animations via IntersectionObserver
  * - Dynamic copyright year
  * ==========================================================================
  */
@@ -146,4 +147,40 @@ document.addEventListener('DOMContentLoaded', () => {
       sectionObserver.observe(section);
     });
   }
+
+  /* --------------------------------------------------------------------------
+     4. GLOBAL SCROLL & ENTRANCE ANIMATIONS (INTERSECTION OBSERVER)
+     -------------------------------------------------------------------------- */
+  const initEntranceAnimations = () => {
+    const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    const revealElements = document.querySelectorAll('.reveal-on-scroll');
+
+    if (!revealElements.length) return;
+
+    if (prefersReducedMotion || !('IntersectionObserver' in window)) {
+      revealElements.forEach((el) => el.classList.add('is-revealed'));
+      return;
+    }
+
+    const revealOptions = {
+      root: null,
+      threshold: 0.12,
+      rootMargin: '0px 0px -40px 0px'
+    };
+
+    const revealObserver = new IntersectionObserver((entries, observer) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('is-revealed');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, revealOptions);
+
+    revealElements.forEach((el) => {
+      revealObserver.observe(el);
+    });
+  };
+
+  initEntranceAnimations();
 });
