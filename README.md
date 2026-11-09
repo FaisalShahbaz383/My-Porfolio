@@ -55,10 +55,10 @@ My-Portfolio/
 ```
 
 ## 🌐 Live Deployment Link
-Live Portfolio URL: https://my-porfolio-sigma-eight.vercel.app/
+1. Live Portfolio URL: https://my-porfolio-sigma-eight.vercel.app/
 
 ## 👤 Developer Profile
-Developer: Muhammad Faisal
-Focus Areas: Full-Stack Web Development (MERN) | Applied AI/ML Engineering
-Education: BS Computer Science — University of Management & Technology (UMT), Lahore
-Location: Lahore, Pakistan
+1. Developer: Muhammad Faisal
+2. Focus Areas: Full-Stack Web Development (MERN) | Applied AI/ML Engineering
+3. Education: BS Computer Science — University of Management & Technology (UMT), Lahore
+4. Location: Lahore, Pakistan
