@@ -52,11 +52,12 @@ My-Portfolio/
 ├── styles.css        # Custom CSS variables, animations, grid layouts & responsive media queries
 ├── script.js        # DOM interaction handlers, mobile nav toggle & Intersection Observer
 └── README.md         # Project documentation
+```
 
-🌐 Live Deployment Link
+## 🌐 Live Deployment Link
 Live Portfolio URL: https://my-porfolio-sigma-eight.vercel.app/
 
-👤 Developer Profile
+## 👤 Developer Profile
 Developer: Muhammad Faisal
 Focus Areas: Full-Stack Web Development (MERN) | Applied AI/ML Engineering
 Education: BS Computer Science — University of Management & Technology (UMT), Lahore
