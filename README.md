@@ -6,21 +6,21 @@ A modern, highly responsive single-page personal developer portfolio built with 
 
 ## 🌟 Key Features & Visual Enhancements
 
-* **Interactive Hero Section:** Features an animated 3D-style rotating tech orb, floating glassmorphism code terminal, and dynamic tech stack badges[cite: 24].
-* **Scroll-Reveal Entrance Animations:** Driven by a lightweight JavaScript `Intersection Observer` API for slide-up and scale-in reveal effects across sections[cite: 24].
-* **Showcase Card Architecture:** Custom CSS Grid and Flexbox layouts featuring animated shimmer gradient borders on hover[cite: 24].
-* **Curated Project Showcase:** Displays flagship full-stack and AI projects with dedicated repository links and live Vercel deployments[cite: 24].
-* **Mobile-First Responsiveness:** Fully adaptive grid layouts that collapse seamlessly across tablet and mobile viewports with an interactive navigation drawer[cite: 24].
+* **Interactive Hero Section:** Features an animated 3D-style rotating tech orb, floating glassmorphism code terminal, and dynamic tech stack badges.
+* **Scroll-Reveal Entrance Animations:** Driven by a lightweight JavaScript `Intersection Observer` API for slide-up and scale-in reveal effects across sections.
+* **Showcase Card Architecture:** Custom CSS Grid and Flexbox layouts featuring animated shimmer gradient borders on hover.
+* **Curated Project Showcase:** Displays flagship full-stack and AI projects with dedicated repository links and live Vercel deployments.
+* **Mobile-First Responsiveness:** Fully adaptive grid layouts that collapse seamlessly across tablet and mobile viewports with an interactive navigation drawer.
 
 ---
 
 ## 🛠️ Technology Stack
 
-* **Markup & Structure:** Semantic HTML5 (`<header>`, `<nav>`, `<main>`, `<section>`, `<article>`, `<footer>`)[cite: 24]
-* **Styling & Design System:** Custom CSS3 (CSS Variables, Flexbox, CSS Grid, `@keyframes` animations, Glassmorphism backdrop filters)[cite: 24]
-* **Scripting Engine:** Vanilla JavaScript ES6+ (DOM manipulation, Intersection Observer API)[cite: 24]
-* **Version Control:** Git & GitHub[cite: 24]
-* **Deployment & CI/CD:** Vercel Continuous Deployment[cite: 24]
+* **Markup & Structure:** Semantic HTML5 (`<header>`, `<nav>`, `<main>`, `<section>`, `<article>`, `<footer>`)
+* **Styling & Design System:** Custom CSS3 (CSS Variables, Flexbox, CSS Grid, `@keyframes` animations, Glassmorphism backdrop filters)
+* **Scripting Engine:** Vanilla JavaScript ES6+ (DOM manipulation, Intersection Observer API)
+* **Version Control:** Git & GitHub
+* **Deployment & CI/CD:** Vercel Continuous Deployment
 
 ---
 
